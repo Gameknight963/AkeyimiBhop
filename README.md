@@ -27,3 +27,7 @@ Our prefix calls `__instance.Look()` to preserve camera movement, but intentiona
 The original `Move()` function uses a `PlayerController` to orchestrate movements. We use the same controller, keeping track of our velocity in a field since it doesn't support velocity.
 
 Then it's as simple as calling my reimplementations of Source movement functions.
+
+## Wtf is an akeyimi
+
+https://discord.com/channels/1466959156492767417/1480960594420175010/1541871755713585252
