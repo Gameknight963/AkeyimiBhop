@@ -48,7 +48,7 @@ namespace AkeyimiBhop
                     else
                     {
                         MovementFunctions.AirMove(ref velocity, wishDir);
-                        velocity.y -= 20f * Time.deltaTime;
+                        velocity.y -= MovementConfig.Instance.GravityUnity * Time.deltaTime;
                     }
 
                     if ((Input.GetKeyDown(KeyCode.Space) || Input.GetAxis("Mouse ScrollWheel") != 0) && __instance.controller.isGrounded)

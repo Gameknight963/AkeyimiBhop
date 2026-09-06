@@ -58,11 +58,13 @@ namespace AkeyimiBhop
         public float Friction { get; set; } = 4f;
         public float JumpVelocity { get; set; } = 268f;
         public float AirCap { get; set; } = 320f;
+        public float Gravity { get; set; } = 787f;
 
         public float MaxGroundSpeedUnity => MaxGroundSpeed * HU_TO_UNITY;
         public float GroundAccelUnity => GroundAccel * HU_TO_UNITY;
         public float AirAccelUnity => AirAccel * HU_TO_UNITY;
         public float JumpVelocityUnity => JumpVelocity * HU_TO_UNITY;
         public float AirCapUnity => AirCap * HU_TO_UNITY;
+        public float GravityUnity => Gravity * HU_TO_UNITY;
     }
 }
